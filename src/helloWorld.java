@@ -19,7 +19,11 @@ public class helloWorld {
 	public String getHelloString() {
 		return this.helloString;
 	}
+	
 	// setter
+	public void setHelloString(String newString) {
+		this.helloString = "hello World";
+	}
 	
 	// print method
 	
