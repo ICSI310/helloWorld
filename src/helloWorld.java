@@ -2,16 +2,25 @@
 public class helloWorld {
 
 	// Variables/Properties
-	String helloString = "hello World";
+	private String helloString = "hello World";
 	
 	// Constructors
 	public helloWorld() {
-		helloString = "hello World";
+		this.helloString = "hello World";
 	}
 	
 	public helloWorld(String newString) {
-		helloString = newString;
+		this.helloString = newString;
 	}
 	
 	// Methods
+	
+	// getter
+	public String getHelloString() {
+		return this.helloString;
+	}
+	// setter
+	
+	// print method
+	
 }
