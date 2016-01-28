@@ -5,11 +5,11 @@ public class HelloWorld {
  private String helloString = "hello World";
  
  // Constructors
- public helloWorld() {
+ public HelloWorld() {
   this.helloString = "hello World";
  }
  
- public helloWorld(String newString) {
+ public HelloWorld(String newString) {
   this.helloString = newString;
  }
  

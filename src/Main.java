@@ -5,10 +5,12 @@ public class Main
   // the main (and only) method
   public static void main(String[] args) 
   {
-    helloWorld hello = new helloWorld();
+    HelloWorld hello = new HelloWorld();
 
     hello.setHelloString("blahblah");
     String newString = hello.getHelloString();
+    
+    System.out.println(newString);
   } // main
 
 } // class Main
